@@ -15,7 +15,6 @@
   letter-spacing: 0;
 }
 
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -72,7 +71,7 @@
 }
 
 .aligned-text,
-.aligned-text_center, 
+.aligned-text_center,
 .aligned-text_right {
   display: block;
 }
@@ -150,7 +149,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  gap: 30px; 
+  gap: 30px;
 }
 
 .card-title {
@@ -218,8 +217,6 @@
   line-height: 1.2;
 }
 
-
-
 .footer {
   display: grid;
   grid-template-columns: 260px 160px 240px;
@@ -249,5 +246,3 @@
 .footer__social-link {
   display: block;
 }
-
-
